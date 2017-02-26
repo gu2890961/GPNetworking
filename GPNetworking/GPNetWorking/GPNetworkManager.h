@@ -19,7 +19,7 @@
 #define KExpirationTime  60*60*24*5  //缓存时间 秒数
 
 /*!
- *  @author GP, 16-01-08 14:01:26
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  下载进度
  *
@@ -33,7 +33,7 @@ typedef GPDownloadProgress GPGetProgress;
 typedef GPDownloadProgress GPPostProgress;
 
 /*!
- *  @author GP, 16-01-08 14:01:26
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  上传进度
  *
@@ -78,7 +78,7 @@ typedef void(^GPResponseSuccess)(id response);
 typedef void(^GPResponseFail)(NSError *error);
 
 /*!
- *  @author huangyibiao, 17-02-25 13:11:31
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  基于AFNetworking的网络层封装类.
  *
@@ -87,7 +87,7 @@ typedef void(^GPResponseFail)(NSError *error);
 @interface GPNetworkManager : NSObject
 
 /*!
- *  @author GP, 17-02-25 13:11:45
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  用于指定网络请求接口的基础url，如：
  *  http://henishuo.com或者http://101.200.209.244
@@ -117,7 +117,7 @@ typedef void(^GPResponseFail)(NSError *error);
 
 
 /**
- *	@author GP
+ *	@author gupeng, 17-02-22 14:01:26
  *
  *	获取缓存总大小/bytes
  *
@@ -141,7 +141,7 @@ typedef void(^GPResponseFail)(NSError *error);
 + (void)clearCaches;
 
 /*!
- *  @author GP, 17-02-25 14:11:40
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  开启或关闭接口打印信息
  *
@@ -150,7 +150,7 @@ typedef void(^GPResponseFail)(NSError *error);
 + (void)enableInterfaceDebug:(BOOL)isDebug;
 
 /*!
- *  @author GP, 15-12-25 15:12:45
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  配置请求格式，默认为JSON。如果要求传XML或者PLIST，请在全局配置一下
  *
@@ -165,7 +165,7 @@ typedef void(^GPResponseFail)(NSError *error);
   callbackOnCancelRequest:(BOOL)shouldCallbackOnCancelRequest;
 
 /*!
- *  @author GP, 15-11-16 13:11:41
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  配置公共的请求头，只调用一次即可，通常放在应用启动的时候配置就可以了
  *
@@ -174,13 +174,11 @@ typedef void(^GPResponseFail)(NSError *error);
 + (void)configCommonHttpHeaders:(NSDictionary *)httpHeaders;
 
 /**
- *	@author GP
- *
- *	取消所有请求
+ *	@author gupeng, 17-02-22 14:01:26
  */
 + (void)cancelAllRequest;
 /**
- *	@author GP
+ *	@author gupeng, 17-02-22 14:01:26
  *
  *	取消某个请求。如果是要取消某个请求，最好是引用接口所返回来的GPURLSessionTask对象，
  *  然后调用对象的cancel方法。如果不想引用对象，这里额外提供了一种方法来实现取消某个请求
@@ -190,7 +188,7 @@ typedef void(^GPResponseFail)(NSError *error);
 + (void)cancelRequestWithURL:(NSString *)url;
 
 /*!
- *  @author GP, 17-02-25 13:11:50
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  GET请求接口，若不指定baseurl，可传完整的url
  *
@@ -209,7 +207,7 @@ typedef void(^GPResponseFail)(NSError *error);
 + (GPURLSessionTask *)getWithUrl:(NSString *)url loadCache:(BOOL)loadCache refreshCache:(BOOL)refreshCache params:(NSDictionary *)params progress:(GPGetProgress)progress success:(GPResponseSuccess)success fail:(GPResponseFail)fail;
 
 /*!
- *  @author GP, 17-02-25 13:11:50
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  POST请求接口，若不指定baseurl，可传完整的url
  *
@@ -223,7 +221,7 @@ typedef void(^GPResponseFail)(NSError *error);
 + (GPURLSessionTask *)postWithUrl:(NSString *)url loadCache:(BOOL)loadCache refreshCache:(BOOL)refreshCache params:(NSDictionary *)params success:(GPResponseSuccess)success fail:(GPResponseFail)fail;
 + (GPURLSessionTask *)postWithUrl:(NSString *)url loadCache:(BOOL)loadCache refreshCache:(BOOL)refreshCache params:(NSDictionary *)params progress:(GPGetProgress)progress success:(GPResponseSuccess)success fail:(GPResponseFail)fail;
 /**
- *	@author GP, 16-01-31 00:01:40
+ *	@author gupeng, 17-02-22 14:01:26
  *
  *	图片上传接口，若不指定baseurl，可传完整的url
  *
@@ -241,7 +239,7 @@ typedef void(^GPResponseFail)(NSError *error);
 + (GPURLSessionTask *)uploadWithImage:(UIImage *)image url:(NSString *)url filename:(NSString *)filename name:(NSString *)name mimeType:(NSString *)mimeType parameters:(NSDictionary *)parameters progress:(GPUploadProgress)progress success:(GPResponseSuccess)success fail:(GPResponseFail)fail;
 
 /**
- *	@author GP, 16-01-31 00:01:59
+ *	@author gupeng, 17-02-22 14:01:26
  *
  *	上传文件操作
  *
@@ -256,7 +254,7 @@ typedef void(^GPResponseFail)(NSError *error);
 
 
 /*!
- *  @author GP, 16-01-08 15:01:11
+ *  @author gupeng, 17-02-22 14:01:26
  *
  *  下载文件
  *
