@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1761C7EE0EC5D25A40C784D2 /* libPods-GPNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0706B1FBBE97154F47879B39 /* libPods-GPNetworking.a */; };
+		182A753B1E61315A00ED6DA0 /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A75391E61315A00ED6DA0 /* NetViewController.m */; };
+		182A753C1E61315A00ED6DA0 /* NetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182A753A1E61315A00ED6DA0 /* NetViewController.xib */; };
+		182F21FE1E6126020016EFAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F21FD1E6126020016EFAF /* main.m */; };
+		182F22011E6126020016EFAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F22001E6126020016EFAF /* AppDelegate.m */; };
+		182F22041E6126020016EFAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F22031E6126020016EFAF /* ViewController.m */; };
+		182F22071E6126020016EFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182F22051E6126020016EFAF /* Main.storyboard */; };
+		182F22091E6126020016EFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182F22081E6126020016EFAF /* Assets.xcassets */; };
+		182F220C1E6126020016EFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182F220A1E6126020016EFAF /* LaunchScreen.storyboard */; };
+		182F221E1E6127190016EFAF /* GPNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F22191E6127190016EFAF /* GPNetAPIManager.m */; };
+		182F221F1E6127190016EFAF /* GPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F221B1E6127190016EFAF /* GPNetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0706B1FBBE97154F47879B39 /* libPods-GPNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182A75381E61315A00ED6DA0 /* NetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetViewController.h; sourceTree = "<group>"; };
+		182A75391E61315A00ED6DA0 /* NetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
+		182A753A1E61315A00ED6DA0 /* NetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetViewController.xib; sourceTree = "<group>"; };
+		182F21F91E6126020016EFAF /* GPNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182F21FD1E6126020016EFAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182F21FF1E6126020016EFAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182F22001E6126020016EFAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182F22021E6126020016EFAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182F22031E6126020016EFAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182F22061E6126020016EFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182F22081E6126020016EFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182F220B1E6126020016EFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182F220D1E6126020016EFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182F22181E6127190016EFAF /* GPNetAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNetAPIManager.h; sourceTree = "<group>"; };
+		182F22191E6127190016EFAF /* GPNetAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNetAPIManager.m; sourceTree = "<group>"; };
+		182F221A1E6127190016EFAF /* GPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNetworkManager.h; sourceTree = "<group>"; };
+		182F221B1E6127190016EFAF /* GPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNetworkManager.m; sourceTree = "<group>"; };
+		659D511459D253D278D7468A /* Pods-GPNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPNetworking/Pods-GPNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA202D762281C7CD06EF872 /* Pods-GPNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPNetworking/Pods-GPNetworking.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182F21F61E6126020016EFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1761C7EE0EC5D25A40C784D2 /* libPods-GPNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182F21F01E6126010016EFAF = {
+			isa = PBXGroup;
+			children = (
+				182F21FB1E6126020016EFAF /* GPNetworking */,
+				182F21FA1E6126020016EFAF /* Products */,
+				EB82B16C213A88BAF2FD5C35 /* Pods */,
+				E3E1312D10A4FD0434E9F162 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182F21FA1E6126020016EFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182F21F91E6126020016EFAF /* GPNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182F21FB1E6126020016EFAF /* GPNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				182F22131E6127190016EFAF /* GPNetWorking */,
+				182F21FF1E6126020016EFAF /* AppDelegate.h */,
+				182F22001E6126020016EFAF /* AppDelegate.m */,
+				182F22021E6126020016EFAF /* ViewController.h */,
+				182F22031E6126020016EFAF /* ViewController.m */,
+				182A75381E61315A00ED6DA0 /* NetViewController.h */,
+				182A75391E61315A00ED6DA0 /* NetViewController.m */,
+				182A753A1E61315A00ED6DA0 /* NetViewController.xib */,
+				182F22051E6126020016EFAF /* Main.storyboard */,
+				182F22081E6126020016EFAF /* Assets.xcassets */,
+				182F220A1E6126020016EFAF /* LaunchScreen.storyboard */,
+				182F220D1E6126020016EFAF /* Info.plist */,
+				182F21FC1E6126020016EFAF /* Supporting Files */,
+			);
+			path = GPNetworking;
+			sourceTree = "<group>";
+		};
+		182F21FC1E6126020016EFAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182F21FD1E6126020016EFAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182F22131E6127190016EFAF /* GPNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				182F22181E6127190016EFAF /* GPNetAPIManager.h */,
+				182F22191E6127190016EFAF /* GPNetAPIManager.m */,
+				182F221A1E6127190016EFAF /* GPNetworkManager.h */,
+				182F221B1E6127190016EFAF /* GPNetworkManager.m */,
+			);
+			path = GPNetWorking;
+			sourceTree = "<group>";
+		};
+		E3E1312D10A4FD0434E9F162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0706B1FBBE97154F47879B39 /* libPods-GPNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB82B16C213A88BAF2FD5C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659D511459D253D278D7468A /* Pods-GPNetworking.debug.xcconfig */,
+				FAA202D762281C7CD06EF872 /* Pods-GPNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182F21F81E6126020016EFAF /* GPNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182F22101E6126020016EFAF /* Build configuration list for PBXNativeTarget "GPNetworking" */;
+			buildPhases = (
+				D29DA794C0C6F99753C62B66 /* 📦 Check Pods Manifest.lock */,
+				182F21F51E6126020016EFAF /* Sources */,
+				182F21F61E6126020016EFAF /* Frameworks */,
+				182F21F71E6126020016EFAF /* Resources */,
+				9545024D8AB58346FE8D115D /* 📦 Embed Pods Frameworks */,
+				479236D580B4D9226732485E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPNetworking;
+			productName = GPNetworking;
+			productReference = 182F21F91E6126020016EFAF /* GPNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182F21F11E6126010016EFAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = gupeng;
+				TargetAttributes = {
+					182F21F81E6126020016EFAF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 182F21F41E6126010016EFAF /* Build configuration list for PBXProject "GPNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182F21F01E6126010016EFAF;
+			productRefGroup = 182F21FA1E6126020016EFAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182F21F81E6126020016EFAF /* GPNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182F21F71E6126020016EFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182A753C1E61315A00ED6DA0 /* NetViewController.xib in Resources */,
+				182F220C1E6126020016EFAF /* LaunchScreen.storyboard in Resources */,
+				182F22091E6126020016EFAF /* Assets.xcassets in Resources */,
+				182F22071E6126020016EFAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479236D580B4D9226732485E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPNetworking/Pods-GPNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9545024D8AB58346FE8D115D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPNetworking/Pods-GPNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29DA794C0C6F99753C62B66 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182F21F51E6126020016EFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F22041E6126020016EFAF /* ViewController.m in Sources */,
+				182F22011E6126020016EFAF /* AppDelegate.m in Sources */,
+				182A753B1E61315A00ED6DA0 /* NetViewController.m in Sources */,
+				182F21FE1E6126020016EFAF /* main.m in Sources */,
+				182F221F1E6127190016EFAF /* GPNetworkManager.m in Sources */,
+				182F221E1E6127190016EFAF /* GPNetAPIManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182F22051E6126020016EFAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182F22061E6126020016EFAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182F220A1E6126020016EFAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182F220B1E6126020016EFAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182F220E1E6126020016EFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182F220F1E6126020016EFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182F22111E6126020016EFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659D511459D253D278D7468A /* Pods-GPNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GPNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycxc.GPNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182F22121E6126020016EFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA202D762281C7CD06EF872 /* Pods-GPNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GPNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycxc.GPNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182F21F41E6126010016EFAF /* Build configuration list for PBXProject "GPNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F220E1E6126020016EFAF /* Debug */,
+				182F220F1E6126020016EFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182F22101E6126020016EFAF /* Build configuration list for PBXNativeTarget "GPNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F22111E6126020016EFAF /* Debug */,
+				182F22121E6126020016EFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182F21F11E6126010016EFAF /* Project object */;
+}
