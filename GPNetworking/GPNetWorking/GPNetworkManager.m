@@ -649,7 +649,7 @@ static inline NSString *cachePath() {
     return cacheData;
 }
 
-/** 缓存文件 */
+/** 缓存文件  */
 + (void)cacheResponseObject:(id)responseObject request:(NSURLRequest *)request parameters:params {
     if (request && responseObject && ![responseObject isKindOfClass:[NSNull class]]) {
         NSString *directoryPath = cachePath();
